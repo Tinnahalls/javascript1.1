@@ -1,5 +1,10 @@
+// I went by a document that is part of the udemy tutorial I use. 
+
+
+
 // Project 1 
-/*
+// log the values
+
 let country = 'Iceland';
 let continent = 'Europe';
 let population = 3400000;
@@ -7,6 +12,7 @@ let population = 3400000;
 console.log(country,continent,population)
 
 // Project 2 
+// setting a value that will not change to a const
 
 const isIsland = true;
 let language
@@ -21,6 +27,7 @@ language = "icelandic";
 console.log(isIsland, population, country,language)
 
 // Project 4  
+//adding to a variable and using concatination
 
 population = (population+1); 
 
@@ -39,15 +46,16 @@ let result;
   if (people > 33.000) {
     result = "Icelandic population is above avarge"
   }
-else {
+  else {
     result = " icelandic populations is below avarage"
-}
+  }
 return result;
 
 }
 console.log(find(people));
 
-// Project 6 - Equality Operatos == vs. === promt doesnt work fully.
+// Project 6 - Equality Operatos == vs. === 
+// Practices using == and === it was important to not use a truthy for the variables. 
 
 let numNeighbours = 1;
 
@@ -65,7 +73,7 @@ let numNeighbours = 1;
 
 
 // Project 7 - 
-// Sarah wants to live in a country that is not an island, and is larger than 50000000.
+// Sarah wants to live in a country that is not an island and is larger than 50000000.
 
 let country = 'Iceland';
 let continent = 'Europe';
@@ -81,6 +89,7 @@ else if(population < 50000000 || numNeighbours < 1) {
     }
 
 // Project 8
+//Using switch statmeents to search for statement connected to a country. 
 
 let language = 'hindi';
 
@@ -112,10 +121,9 @@ console.log("great langauge")
   
 }
 
-// Project 9 
+// Project 9 using a different mode for true false statement. 
 population > 33000000 ? console.log( "populations is above avarage") : console.log( "populations is below avarage");
 
-*/
 // Using a list of objects 
 
 const arrOfcountries = [
@@ -136,6 +144,8 @@ const arrOfcountries = [
   }
 
 ]
+
+// Finding elements in the array and comparing them together, then outputting them. 
 
 if(arrOfcountries[2].population > arrOfcountries[1].population)
 console.log(arrOfcountries[2].name +' is larger than ' + arrOfcountries[1].name);
